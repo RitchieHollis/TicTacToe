@@ -12,7 +12,7 @@ bool placement(char**, int, int, char);
 bool winRules(char**);
 bool draw(char**);
 
-int main(){
+auto main()->int{
     
 
     char** table = createTable();
